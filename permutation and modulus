@@ -1,0 +1,22 @@
+#include <iostream>
+using namespace std;
+
+void alok(){
+    int i;
+    int n;
+    cin>>n;
+    for(i=1;i<n;i++)
+        cout<<i+1<<" ";
+        cout<<1<<endl;
+    
+}
+int main() {
+	// your code goes here
+	int t;
+	cin>>t;
+	while(t--)
+	{
+	    alok();
+	}
+	return 0;
+}
